@@ -5,9 +5,9 @@
 
   /* 
   APPROACH TO ACHIEVE
-    1.looping the input array
-    2.using a variable to sum value of each element in loop with its pervious sum
-    3.pushing the summed up value to new array and returning the array at the end
+    1.using a variable to store the sum of value
+    2.looping the input array
+    3.pushing the summed up value to new array at each loop and returning the array at the end
   */
 
   /* 

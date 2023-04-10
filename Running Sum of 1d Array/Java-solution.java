@@ -1,16 +1,18 @@
+    /* 
+      APPROACH TO ACHIEVE
+    1. Taking a copy of array using clone method.
+    2. looping the cloned array from second to last element
+    3. at each loop, updating the current element with sum of current element value and previous element value.
 
-  /* 
-  APPROACH TO ACHIEVE
-    1.looping the input array from second to last element
-    2. updating the current element with sum of current element and previous element value at each loop
-  */
+    */
 
-  /* 
-  NOTE:
+    /* 
+      NOTE:
     not working on the parameter as there is a chance of
     modifying actual input argument array value which might be needed
     for further operations
-  */
+    */
+
 
 class Solution {
     public int[] runningSum(int[] nums) {
