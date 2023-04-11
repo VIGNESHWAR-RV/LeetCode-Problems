@@ -28,19 +28,20 @@
          return false;
  */
     var isSubsequence = function(s, t) {
-       const sLength = s.length; 
-       const tLength = t.length;
-     
-       let sCount = 0; 
-
-       for( let i=0; i < tLength; i++) {
-           if (t[i] === s[sCount]) {
-               sCount += 1;
-           }
-       }
-
-       return (sCount === sLength) ? true : false
-
+    
+      const sLength = s.length; 
+      const tLength = t.length;
+      
+      let sCount = 0; 
+  
+      for( let i=0; i < tLength; i++) {
+          if (t[i] === s[sCount]) {
+              sCount += 1;
+          }
+      }
+  
+      return sCount === sLength;   
+      
     };
 
 let s = "abc";
