@@ -9,7 +9,7 @@
  * }
  */
 /*
-    APPROACH
+    APPROACH ( learnt )
      
     1.create two reference to head of the lst
     2.move one reference to child of the current pointer
